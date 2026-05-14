@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h1>CipherDev</h1>
+            </div>
+            <ul>
+                <li><a href="#home"><i class="fa-regular fa-house"></i> home</a></li>
+                <li><a href="#about"><i class="fa-solid fa-circle-info"></i> about</a></li>
+                <li><a href="#projects"><i class="fa-solid fa-diagram-project"></i> projects</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-phone"></i> contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="photo-container">
+            <div class="photo shadow">
+                <img src="me.jpg" alt="">
+            </div>
+        </div>
+        <div class="text">
+            <h3>hello!</h3>
+            <div class="about-text">
+                <div class="constant">i'm</div>
+                <ul>
+
+                    <li><span>abdelrahman ashour</span></li>
+                    <li><span>a software developer</span></li>
+                    <li><span>a web penetration tester</span></li>
+
+                </ul>
+            </div>
+            <h2>building elegant solutions with <span class="csc">clean and secure code</span></h2>
+            <p>I craft fast, scalable, and maintainable software — because great code is the foundation of great
+                products.</p>
+        </div>
+    </section>
+    <section id="about">
+        <div class="content">
+            <h2>work experience</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="icon"><i class="fa-solid fa-code-pull-request"></i></div>
+                    <h3>Open Source Contributor</h3>
+                    <p>Developing targeted XSS vulnerability challenges for the OWASP Juice Shop project.</p>
+                </div>
+                <div class="card">
+                    <div class="icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>Freelance Front-End Developer</h3>
+                    <p> Building responsive, elegant, and clean UI architectures using modern web technologies.</p>
+                </div>
+                <div class="card">
+                    <div class="icon"><i class="fa-solid fa-bug"></i></div>
+                    <h3>Security Researcher</h3>
+                    <p>Identifying web vulnerabilities and securing applications through active bug bounty hunting.</p>
+                </div>
+                <div class="card">
+                    <div class="icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <h3>Front-End Dev Trainee</h3>
+                    <p>Intensive web design and development program by the NTI & Digital Egypt Youth.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="tools">
+        <div class="tools">
+            <div class="sun-eff">CipherDev</div>
+            <div class="tool js">
+                <div class="tool-icon" data-tooltip="JavaScript"><i class="fa-brands fa-js"></i></div>
+            </div>
+            <div class="tool css">
+                <div class="tool-icon" data-tooltip="CSS"><i class="fa-brands fa-css3-alt"></i></div>
+            </div>
+            <div class="tool react">
+                <div class="tool-icon" data-tooltip="React"><i class="fa-brands fa-react"></i></div>
+            </div>
+            <div class="tool burp">
+                <div class="tool-icon " data-tooltip="Burp Suite"><i class="fa-solid fa-bug"></i></div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <div class="left">
+                <h3>featured project</h3>
+                <h2>bounty radar</h2>
+                <div class="about-proj">
+                    <p>
+                        Bounty Radar Platform is a dynamic threat intelligence and bug bounty aggregator designed for security researchers. It seamlessly fetches live cybersecurity news, latest vulnerability write-ups, and global hacker rankings into a sleek, Red Team-inspired dashboard. Built entirely with Vanilla JavaScript, focusing on performance and clean architecture.
+                    </p>
+                </div>
+                <div class="link"><i class="fa-brands fa-github"></i></div>
+            </div>
+            <div class="right">
+                <div class="project-img"><img src="bountyradar.png" alt=""></div>
+            </div>
+        </div>
+
+    </section>
+    <footer id="contact">
+        <div class="shadow">
+            <div class="text">
+                <h2>let's connect</h2>
+                <p>Have a freelance project, collaboration, or just want to chat tech? I'm
+                    always open to new opportunities and ideas.</p>
+                <div class="email">abdelrahmanashour86@gmail.com</div>
+            </div>
+            <div class="links">
+                <div class="facebook"><i class="fa-brands fa-facebook"></i></div>
+                <div class="whatsapp"><i class="fa-brands fa-whatsapp"></i></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
