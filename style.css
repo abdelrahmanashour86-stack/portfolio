@@ -411,18 +411,26 @@ nav ul li a:focus-visible::before {
 
 .tool.js .tool-icon {
     animation: reverse-orbit 18s linear infinite;
+    animation-delay: -2s;
+
 }
 
 .tool.css .tool-icon {
     animation: reverse-orbit 14s linear infinite;
+    animation-delay: -5s;
+
 }
 
 .tool.react .tool-icon {
     animation: reverse-orbit 10s linear infinite;
+    animation-delay: -3s;
+
 }
 
 .tool.burp .tool-icon {
+    
     animation: reverse-orbit 7s linear infinite;
+    animation-delay: -1s;
 }
 
 
@@ -913,4 +921,14 @@ footer .text p {
     .links div i {
         font-size: 25px;
     }
+}
+
+.usp-text {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #e0e0e0; 
+    max-width: 600px;
+    margin-top: 15px;
+    font-style: italic;
+    opacity: 0.9;
 }

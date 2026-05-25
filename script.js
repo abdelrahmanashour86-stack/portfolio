@@ -1,6 +1,6 @@
 const img = document.querySelector(".project-img")
 const github = document.querySelector(".link")
-const facebook = document.querySelector(".facebook")
+const linkedIn = document.querySelector(".facebook")
 const whatsapp = document.querySelector(".whatsapp")
 const email = document.querySelector(".email")
 img.onclick =()=>{
@@ -9,8 +9,8 @@ img.onclick =()=>{
 github.onclick =()=>{
     window.open("https://github.com/abdelrahmanashour86-stack/bounty-radar-platform")
 }
-facebook.onclick =()=>{
-    window.open("https://www.facebook.com/3bdelra7man3a4our")
+linkedIn.onclick =()=>{
+    window.open("https://www.linkedin.com/in/abdelrahman-tabaga-9a6105274?utm_source=share_via&utm_content=profile&utm_medium=member_android")
 }
 whatsapp.onclick =()=>{
     window.open("https://wa.me/201032039679")
