@@ -522,13 +522,14 @@ nav ul li a:focus-visible::before {
 }
 
 #projects .container {
-    width: 85%;
+    width: 100%;
     min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
+    margin-top: 40px;
 }
 
 .left {
