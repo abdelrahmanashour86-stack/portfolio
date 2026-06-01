@@ -4,7 +4,7 @@ const projectsData = [
         type: "Dashboard",
         title: "Bounty Radar (React Edition)",
         description: "Bounty Radar Platform is a dynamic threat intelligence and bug bounty aggregator designed for security researchers. It seamlessly fetches live cybersecurity news, vulnerability write-ups, and hacker rankings into a sleek, Red Team-inspired dashboard. Re-architected with React.js, Vite, and Tailwind CSS v4, featuring a fully responsive UI and a seamless Dark/Light mode toggle.",
-        image: "bountyrada-react.png",
+        image: "bountyradar-react.png",
         liveLink: "https://bounty-radar-react-edition.vercel.app/",
         githubLink: "https://github.com/abdelrahmanashour86-stack/bounty-radar-react-edition"
     },
